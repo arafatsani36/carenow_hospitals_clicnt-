@@ -1,0 +1,32 @@
+.testimonialsBox{
+    position: relative;
+   isolation: isolate;
+   overflow: hidden;
+   
+   background-color: white;
+   box-shadow: 1px 4px 17px -1px rgba(0,0,0,0.75);
+   transition: 0.3s;
+    
+}
+.testimonialsBox::before{
+   position: absolute;
+   content: '';
+   top: 0;
+   left: 0;
+   transform: translate(-50%, -50%);
+   width: 75%;
+   aspect-ratio: 1;
+    border-radius: 100%;
+    background-color: rgba(9, 175, 134);
+    z-index: -1;
+    transition:all ease-in  0.4s;
+}
+.testimonialsBox:hover:before{  
+    width: 500%;
+ }
+ .testimonialsBox:hover p{  
+    color: rgb(0, 0, 0);
+ }
+ .testimonialsBox img{
+    border: 2px solid rgba(9, 175, 134);
+ }

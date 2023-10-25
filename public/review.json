@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/G0Wz3Dk/review1.png",
+        "name": "John Doe",
+        "patientsReview": "I had a life-changing experience with Dr. Smith. From the moment I entered the clinic, I felt like I was in good hands. Dr. Smith's expertise and compassion were immediately evident. He took the time to explain my condition in detail and patiently answered all my questions."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/ynf4RYH/review2.png",
+        "name": "Jane Smith",
+        "patientsReview": "My experience with Dr. Davis was beyond exceptional. From the very first appointment, I knew I was in the right hands. Dr. Davis has a remarkable ability to connect with her patients, making me feel comfortable and heard.Her approach to treatment is comprehensive."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/KzgWLfs/review3.png",
+        "name": "David Johnson",
+        "patientsReview": "I sought treatment from Dr. Brown, and I must say that my experience was far from satisfactory. The treatment was ineffective, and my condition did not improve. I ended up seeking a second opinion elsewhere, which provided a completely different perspective on my diagnosis and treatment."
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/GFYxThX/review4.png",
+        "name": "Sarah Lee",
+        "patientsReview": "Dr. Miller is a true miracle worker. I can't express how grateful I am for his expertise and dedication. Under his care, my health has significantly improved, and I'm on the road to recovery. Dr. Miller's holistic approach to healthcare,  combining medical. combining medical"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/GQLnvFG/review5.png",
+        "name": "Michael Brown",
+        "patientsReview": "I had a positive experience with Dr. Wilson. She's an excellent physician who combines medical expertise with a compassionate approach to patient care. The treatment she provided was effective, and I'm on the path to recovery.I would highlyI would highly recommend."
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/XXGvRDd/review6.png",
+        "name": "Lisa Taylor",
+        "patientsReview": "My experience with Dr. Martinez was terrible. The treatment was ineffective, and I felt like I wasted my time and money. I expected better care and results, and I'm deeply disappointed.My experience with Dr. Martinez was terrible. The treatment was ineffective."
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/KWd7Wzx/review7.png",
+        "name": "Elena Wilson",
+        "patientsReview": "Dr. Brown is a fantastic physician. He combines extensive medical knowledge with a caring and empathetic approach to patient care. The treatment plan he designed worked well for me, and I'm grateful for his dedication to my well-being. I highly recommend."
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/7Yrbxp7/review8.png",
+        "name": "Robert Davis",
+        "patientsReview": "My experience with Dr. Johnson was okay, but it wasn't exceptional. The treatment worked to some extent, but I expected more significant results. While he is a competent physician, I was hoping for a more personalized approach to my care.more personalized approach to my care."
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/vhhxJKH/review9.png",
+        "name": "Megan White",
+        "patientsReview": "I can't thank Dr. Adams enough for the care he provided. He went above and beyond to ensure I received the best treatment possible. Under his care, my health improved significantly, and I'm grateful for his expertise and dedication. He's not just a doctor; he's a lifesaver."
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/m8KLzxd/review10.png",
+        "name": "Daniel Green",
+        "patientsReview": "My experience with Dr. Green was highly disappointing. The treatment he recommended did not work at all, and I saw no improvement in my condition. I was left feeling frustrated and let down by his care.The treatment he recommended did not work at all, and I saw no."
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co/17SPfvD/review11.png",
+        "name": "Olivia Adams",
+        "patientsReview": "I had an exceptional experience with Dr. Martinez. She's a skilled and compassionate physician who provided outstanding care. The treatment plan she designed was effective, and I'm completely satisfied with the results. Dr. Martinez is a true healthcare professional."
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co/T2NMHjV/revirw12.png",
+        "name": "James Robinson",
+        "patientsReview": "My experience with Dr. Robinson was average. The treatment he provided was somewhat effective, but it wasn't exceptional. I expected more personalized care, and I felt like I was just one of many patients in the clinic.The treatment he provided was somewhat effective."
+    }
+]

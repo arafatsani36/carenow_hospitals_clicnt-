@@ -1,0 +1,14 @@
+
+
+.bookAppointmentContainer{
+    background-color: rgba(9, 175, 134); 
+}
+.formBtn{
+    border: 2px solid rgb(3, 90, 250);
+    transition: .8s;
+    cursor: pointer;
+}
+.formBtn:hover{
+    background-color:rgb(3, 90, 250);
+    color: #fff;
+}

@@ -1,0 +1,52 @@
+
+.header{
+    background-color: rgba(9, 175, 134);
+}
+.header.header-bg{
+    background-color: blanchedalmond;
+}
+
+
+.header input{
+    background-color: rgb(170, 228, 213);
+    padding: 4px;
+    color: #000000;
+    border: 1px solid rgba(9, 175, 134);
+}
+
+.logo span{
+    color: rgba(9, 175, 134);
+    font-weight: bold;
+}
+.navbar{
+position: relative;
+width: 100%;
+display: flex;
+}
+.nav {
+    padding: 10px;
+}
+.nav li a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    padding: 0 23px;
+}
+.nav li a:hover::after, .nav li a.active::after{
+    content: "";
+    position: absolute;
+    background: rgba(9, 175, 134);
+    bottom: -3px;
+    width: 70%;
+    height: 2px;
+    left: 20px;
+}
+.nav li a:hover, .nav li a.active{
+    color: rgba(9, 175, 134);
+    
+}
+
+

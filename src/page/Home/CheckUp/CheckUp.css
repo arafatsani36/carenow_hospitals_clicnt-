@@ -1,0 +1,20 @@
+.CheckUpBg{
+    background-image: url(../../../assets/checkup/checkUp-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    object-fit: cover;
+}
+.CheckUp{
+    background-color: rgba(255, 255, 255, 0.397);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    padding: 60px;
+}
+
+.CheckUp span{
+    width: 300px;
+    background: rgba(9, 175, 134);
+    height: 2px;
+    margin: 0px 20px;
+}

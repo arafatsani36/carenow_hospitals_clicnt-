@@ -1,0 +1,17 @@
+.bookAppointment{
+    background-color: rgb(249, 249, 249);
+}
+.span{
+    color: rgba(9, 175, 134);
+}
+ .bookAppointmentBtn{
+    border:2px solid rgba(9, 175, 134);
+    color: #000000;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+.bookAppointmentBtn:hover{
+    background-color: rgb(3, 90, 250);
+    border:2px solid rgb(3, 90, 250);
+    color: #fff;
+} 

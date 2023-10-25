@@ -1,0 +1,240 @@
+[
+    {
+        "ID": "001",
+        "Photo": "https://i.ibb.co/ySCKLBW/doctor1.png",
+        "Name": "Dr. John Smith",
+        "Email": "john.smith@example.com",
+        "Phone": "(123) 456-7890",
+        "department": "Cardiology",
+        "Schedules": [
+            "Monday: 9 AM - 5 PM",
+            "Friday: 1 PM - 7 PM"
+        ]
+    },
+    {
+        "ID": "002",
+        "Photo": "https://i.ibb.co/5RHDP3K/doctor2.png",
+        "Name": "Dr. Emily Johnson",
+        "Email": "emily.johnson@example.com",
+        "Phone": "(234) 567-8901",
+        "department": "Pediatrics",
+        "Schedules": [
+            "Tuesday: 8 AM - 4 PM",
+            "Thursday: 10 AM - 6 PM"
+        ]
+    },
+    {
+        "ID": "003",
+        "Photo": "https://i.ibb.co/RbLw6Y3/doctor3.png",
+        "Name": "Dr. Michael Davis",
+        "Email": "michael.davis@example.com",
+        "Phone": "(345) 678-9012",
+        "department": "Orthopedics",
+        "Schedules": [
+            "Wednesday: 10 AM - 6 PM",
+            "Saturday: 9 AM - 3 PM"
+        ]
+    },
+    {
+        "ID": "004",
+        "Photo": "https://i.ibb.co/DksmqSq/doctor4.png",
+        "Name": "Dr. Sarah Brown",
+        "Email": "sarah.brown@example.com",
+        "Phone": "(456) 789-0123",
+        "department": "Dermatology",
+        "Schedules": [
+            "Monday: 1 PM - 7 PM",
+            "Wednesday: 8 AM - 4 PM"
+        ]
+    },
+    {
+        "ID": "005",
+        "Photo": "https://i.ibb.co/gdRKd2D/doctor5.png",
+        "Name": "Dr. Robert Lee",
+        "Email": "robert.lee@example.com",
+        "Phone": "(567) 890-1234",
+        "department": "Ophthalmology",
+        "Schedules": [
+            "Tuesday: 9 AM - 5 PM",
+            "Thursday: 1 PM - 7 PM"
+        ]
+    },
+
+    {
+        "ID": "006",
+        "Photo": "https://i.ibb.co/Y8k9RvB/doctor6.png",
+        "Name": "Dr. Maximus Tremel",
+        "Email": "john.smith@example.com",
+        "Phone": "555-555-5555",
+        "department": "Cardiology",
+        "Schedules": [
+            "Tuesday: 9 AM - 5 PM",
+            "Thursday: 1 PM - 7 PM"
+        ]
+    },
+    {
+        "ID": "007",
+        "Photo": "https://i.ibb.co/rczrTLy/doctor7.png",
+        "Name": "Dr. Ayden Baisden",
+        "Email": "sarah.johnson@example.com",
+        "Phone": "555-555-5556",
+        "department": "Pediatrics",
+        "Schedules": [
+            "Monday: 1 PM - 7 PM",
+            "Wednesday: 8 AM - 4 PM"
+        ]
+    },
+    {
+        "ID": "008",
+        "Photo": "https://i.ibb.co/30MDKWK/doctor8.png",
+        "Name": "Dr. Kyrie Seavey",
+        "Email": "david.brown@example.com",
+        "Phone": "555-555-5557",
+        "department": "Orthopedics",
+        "Schedules": [
+            "Wednesday: 10 AM - 6 PM",
+            "Saturday: 9 AM - 3 PM"
+        ]
+    },
+    {
+        "ID": "009",
+        "Photo": "https://i.ibb.co/88j0G9R/doctor9.png",
+        "Name": "Dr. Calvin Loter",
+        "Email": "emily.davis@example.com",
+        "Phone": "555-555-5558",
+        "department": "Dermatology",
+        "Schedules": [
+            "Tuesday: 8 AM - 4 PM",
+            "Thursday: 10 AM - 6 PM"
+        ]
+    },
+    {
+        "ID": "010",
+        "Photo": "https://i.ibb.co/mCr2Y54/doctor10.png",
+        "Name": "Dr. Graham Axford",
+        "Email": "michael.wilson@example.com",
+        "Phone": "555-555-5559",
+        "department": "Neurology",
+        "Schedules": [
+            "Monday: 9 AM - 5 PM",
+            "Friday: 1 PM - 7 PM"
+        ]
+    },
+    {
+        "ID": "011",
+        "Photo": "https://i.ibb.co/C2B19SQ/doctor11.png",
+        "Name": "Dr. Alicia Williama",
+        "Email": "daniel.parker@example.com",
+        "Phone": "(123) 456-7890",
+        "department": "Orthopedics",
+        "Schedules": [
+            "Monday: 8 AM - 4 PM",
+            "Thursday: 1 PM - 7 PM"
+        ]
+    },
+    {
+        "ID": "012",
+        "Photo": "https://i.ibb.co/TBq694W/doctor12.png",
+        "Name": "Dr. Ava Wilson",
+        "Email": "ava.wilson@example.com",
+        "Phone": "(234) 567-8901",
+        "department": "Dermatology",
+        "Schedules": [
+            "Tuesday: 10 AM - 6 PM",
+            "Friday: 9 AM - 5 PM"
+        ]
+    },
+    {
+        "ID": "013",
+        "Photo": "https://i.ibb.co/bQN68Xz/doctor13.png",
+        "Name": "Dr. James Johnson",
+        "Email": "james.johnson@example.com",
+        "Phone": "(345) 678-9012",
+        "department": "Ophthalmology",
+        "Schedules": [
+            "Wednesday: 1 PM - 7 PM",
+            "Saturday: 8 AM - 4 PM"
+        ]
+    },
+    {
+        "ID": "014",
+        "Photo": "https://i.ibb.co/r3LfMMK/doctor14.png",
+        "Name": "Dr. Sophia Brown",
+        "Email": "sophia.brown@example.com",
+        "Phone": "(456) 789-0123",
+        "department": "Neurology",
+        "Schedules": [
+            "Thursday: 9 AM - 5 PM",
+            "Sunday: 1 PM - 7 PM"
+        ]
+    },
+    {
+        "ID": "015",
+        "Photo": "https://i.ibb.co/CzCSL0q/doctor15.png",
+        "Name": "Dr. Ethan Smith",
+        "Email": "ethan.smith@example.com",
+        "Phone": "(567) 890-1234",
+        "department": "Gynecology",
+        "Schedules": [
+            "Friday: 10 AM - 6 PM",
+            "Sunday: 8 AM - 4 PM"
+        ]
+    },
+    {
+        "ID": "016",
+        "Photo": "https://i.ibb.co/crCjKqV/doctor16.png",
+        "Name": "Dr. Mia Johnson",
+        "Email": "mia.johnson@example.com",
+        "Phone": "(678) 901-2345",
+        "department": "Urology",
+        "Schedules": [
+            "Saturday: 9 AM - 5 PM",
+            "Sunday: 10 AM - 4 PM"
+        ]
+    },
+    {
+        "ID": "017",
+        "Photo": "https://i.ibb.co/Bz6DFp5/doctor17.png",
+        "Name": "Dr. Benjamin Davis",
+        "Email": "benjamin.davis@example.com",
+        "Phone": "(789) 012-3456",
+        "department": "Cardiology",
+        "Schedules": [
+            "Sunday: 9 AM - 5 PM"
+        ]
+    },
+    {
+        "ID": "018",
+        "Photo": "https://i.ibb.co/s2tNCjJ/doctor18.png",
+        "Name": "Dr. Lily Miller",
+        "Email": "lily.miller@example.com",
+        "Phone": "(890) 123-4567",
+        "department": "Pediatrics",
+        "Schedules": [
+            "Sunday: 1 PM - 7 PM"
+        ]
+    },
+    {
+        "ID": "019",
+        "Photo": "https://i.ibb.co/tp9TDxY/doctor19.png",
+        "Name": "Dr. Samuel Wilson",
+        "Email": "samuel.wilson@example.com",
+        "Phone": "(901) 234-5678",
+        "department": "Orthopedics",
+        "Schedules": [
+            "Saturday: 8 AM - 4 PM"
+        ]
+    },
+    {
+        "ID": "020",
+        "Photo": "https://i.ibb.co/J5mQMyq/doctor20.png",
+        "Name": "Dr. Emma Taylor",
+        "Email": "emma.taylor@example.com",
+        "Phone": "(012) 345-6789",
+        "department": "Dermatology",
+        "Schedules": [
+            "Sunday: 10 AM - 6 PM"
+        ]
+    }
+]
+
