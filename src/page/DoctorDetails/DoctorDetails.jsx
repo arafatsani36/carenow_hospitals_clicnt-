@@ -7,11 +7,8 @@ import { FaFacebookF, FaInstagram, FaTelegramPlane, FaTwitter} from "react-icons
 import { GrSchedules } from "react-icons/gr";
 import { useLoaderData, useParams } from "react-router-dom";
 
-
 import "react-datepicker/dist/react-datepicker.css";
 import CustomModal from '../../Components/CustomModal/CustomModal';
-
-
 
 const DoctorDetails = () => {
     const[data, setData] = useState({});
@@ -20,15 +17,8 @@ const DoctorDetails = () => {
     // Book an Appointment model state 
      const [isOpen , setIsOpen] = useState(false);
 
-    // const close = ()=>{
-    //     console.log("Close button clicked")
-    // }
-
-    // console.log(allDoctorDetails)
     let {ID} = useParams();
-    // console.log(id)
-    
-
+ 
     useEffect(() => {
         if(allDoctorDetails){
             const singleDoctorData = allDoctorDetails.find(item => item.ID === ID);
@@ -37,14 +27,8 @@ const DoctorDetails = () => {
     })
 
     // console.log(data)
-
-   
-
-
-
-   
     return (
-        <div className="md:flex items-center h-[500px] mt-10">
+        <div className="ml-5 md:flex items-center h-[500px] my-10">
              <img className="md:h-[400px]" src={data.Photo} alt="" />
                <div>
              

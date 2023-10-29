@@ -1,0 +1,12 @@
+.service h2{
+    color: rgba(9, 175, 134);
+}
+.serviceBtn{
+    border: 2px solid rgba(9, 175, 134);
+    transition: all 0.3s ease-in;
+}
+.serviceBtn:hover{
+    border: 2px solid rgba(9, 175, 134);
+    background-color: rgba(9, 175, 134);
+    color: #ffffff;
+}
