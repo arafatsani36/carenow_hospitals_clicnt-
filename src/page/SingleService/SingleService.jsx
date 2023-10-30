@@ -27,7 +27,7 @@ const SingleService = () => {
     // console.log(data)
 
     return (
-        <div >
+        <div className="mx-4 md:mx-0 lg:mx-0">
         <div className="grid md:grid-cols-3 lg:grid-cols-3 mt-10 gap-5 mx-auto">
            <div>
                 <img className="" src={service.image} alt="" />
@@ -53,6 +53,23 @@ const SingleService = () => {
             spaceBetween={30}
             pagination={{
             clickable: true,
+            }}
+            breakpoints={{
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 50,
+                    
+                },
+                620: {
+                    slidesPerView: 2,
+                    spaceBetween: 70,
+                }
+                ,
+                840: {
+                    slidesPerView: 5,
+                    spaceBetween: 30,
+                }
+  
             }}
             modules={[Pagination]}
             className="mySwiper"
