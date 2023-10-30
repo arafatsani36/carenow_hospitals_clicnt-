@@ -18,6 +18,7 @@ const DoctorDetails = () => {
      const [isOpen , setIsOpen] = useState(false);
 
     let {ID} = useParams();
+    // console.log(ID)
  
     useEffect(() => {
         if(allDoctorDetails){

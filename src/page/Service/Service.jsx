@@ -24,7 +24,7 @@ const Service = () => {
                     <div className=' pl-2'>
                         <h2 className='text-2xl font-bold my-2'>{service.title}</h2>
                         <p className=' text-gray-700'>{service.description.slice(1, 300)}.....</p>
-                        <Link to={`${service.id}`}>
+                        <Link to={`/service/${service.id}`}>
                            <p className='text-center mt-4 p-2 text-lg serviceBtn md:w-48 m-auto rounded-full flex justify-center items-center'>Read More <BsArrowRight className='text-2xl cursor-pointer ml-2'></BsArrowRight></p>
                         </Link>
                     </div>

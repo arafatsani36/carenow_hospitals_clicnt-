@@ -5,6 +5,7 @@ import Departments from "../Departments/Departments";
 import Doctor from "../Doctor/Doctor";
 import DoctorDetails from "../DoctorDetails/DoctorDetails";
 import Service from "../Service/Service";
+import SingleService from "../SingleService/SingleService";
 
 
 const Routers = createBrowserRouter ([
@@ -42,6 +43,11 @@ const Routers = createBrowserRouter ([
           {
             path: 'service',
             element:<Service></Service>
+          },
+          {
+            path: '/service/:id',
+            element:<SingleService></SingleService>,
+            loader:({params}) => fetch('/service.json')
           }
           
         ]
