@@ -1,3 +1,4 @@
+import './SingleService.css'
 import { useState } from "react";
 import { useEffect } from "react";
 import {BiRightArrowAlt } from "react-icons/bi";
@@ -24,6 +25,8 @@ const SingleService = () => {
     })
 
 
+    // <BiRightArrowAlt style={{color:'rgba(9, 175, 134)'}}></BiRightArrowAlt>
+
     // console.log(data)
 
     return (
@@ -39,8 +42,8 @@ const SingleService = () => {
            
             <div className="md:ml-32 lg:ml-32">
                 {
-                  allService.map((item)=> <li className="cursor-pointer list-none text-lg" key={item.id}>
-                   <BiRightArrowAlt style={{color:'rgba(9, 175, 134)'}}></BiRightArrowAlt> {item.title}
+                  allService.map((item)=> <li className="service-category cursor-pointer list-none text-xl my-4" key={item.id}>
+                    <span>{item.title}</span>
                   </li>)  
                 }
             </div>
@@ -48,6 +51,7 @@ const SingleService = () => {
 
         {/* slider start */}
         <div className="md:mt-20">
+        <h2 className=' text-2xl lg:text-2xl font-bold p-4 mt-20'><span className='titleUnderline'>Other <span className='OurDoctorsSpan'>Services</span></span> </h2>
             <Swiper
             slidesPerView={5}
             spaceBetween={30}

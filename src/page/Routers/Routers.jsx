@@ -7,6 +7,8 @@ import DoctorDetails from "../DoctorDetails/DoctorDetails";
 import Service from "../Service/Service";
 import SingleService from "../SingleService/SingleService";
 import About from "../About/About";
+import Login from "../Login/Login";
+import Registration from "../Registration/Registration";
 
 
 const Routers = createBrowserRouter ([
@@ -53,7 +55,16 @@ const Routers = createBrowserRouter ([
           {
             path: 'about',
             element:<About></About>
+          },
+          {
+            path: 'login',
+            element:<Login></Login>
+          },
+          {
+            path: 'registration',
+            element:<Registration></Registration>
           }
+
           
         ]
       },

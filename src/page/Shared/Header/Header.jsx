@@ -56,7 +56,7 @@ const Header = () => {
             
                 <nav className="flex justify-between items-center  w-[90%] mx-auto p-3 lg:p-0">
                     <div className='flex'>
-                        <img className='w-9 h-9' src={logo} alt="" />
+                        <img className='w-9 h-9 mt-2' src={logo} alt="" />
                         <h1 className='logo lg:text-2xl font-bold'><span>Carenow</span> hospitals</h1>
                     </div>
 
@@ -100,7 +100,7 @@ const Header = () => {
                         </li>
                         
                         <div className='lg:items-center'>
-                            <button className="lg:ml-[10vw]">login</button>
+                            <button className="lg:ml-[10vw] text-lg"><Link to='login'>login</Link></button>
                         </div>
                         
                         </ul>  
