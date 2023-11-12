@@ -51,19 +51,21 @@ const Testimonials = () => {
             >
 
                
-                    {
-                        patients.map(patient => 
-                        <SwiperSlide className='mt-3' key={patient.id}>
-                            <div className='testimonialsBox pl-8 pt-20 pr-8 pb-8 mb-8'>
-                                <BiSolidQuoteAltLeft className=' text-white text-4xl absolute top-7 left-4'></BiSolidQuoteAltLeft>
-                                <p className=' text-justify text-base text-slate-600'>{patient.patientsReview}</p>
-                                <img className='rounded-full mx-auto my-4' src={patient.img} alt="" />
-                                <h4 className=' text-2xl font-bold text-center'>{patient.name}</h4>
-                                
-
-                            </div>
-                        </SwiperSlide>)
-                    }
+                    <div className='testimonials'>
+                        {
+                            patients.map(patient => 
+                            <SwiperSlide className='mt-3' key={patient.id}>
+                                <div className='testimonials pl-8 pt-20 pr-8 pb-8 mb-8'>
+                                    <BiSolidQuoteAltLeft className=' text-white text-4xl absolute top-8 left-2'></BiSolidQuoteAltLeft>
+                                    <div className='testimonialsBox'>
+                                        <p className=' text-justify text-base text-slate-600'>{patient.patientsReview}</p>
+                                        <img className='rounded-full mx-auto my-4' src={patient.img} alt="" />
+                                        <h4 className=' text-2xl font-bold text-center'>{patient.name}</h4>
+                                    </div>
+                                </div>
+                            </SwiperSlide>)
+                     }
+                    </div>
                 
 
            </Swiper>

@@ -1,32 +1,56 @@
-.testimonialsBox{
-    position: relative;
-   isolation: isolate;
-   overflow: hidden;
-   
-   background-color: white;
-   box-shadow: 1px 4px 17px -1px rgba(0,0,0,0.75);
-   transition: 0.3s;
+.testimonials{
+  width: 100%;
+  height: 100%;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  box-shadow: -1px 4px 10px 3px rgba(170,168,168,0.75);
+  -webkit-box-shadow: -1px 4px 10px 3px rgba(170,168,168,0.75);
+   -moz-box-shadow: -1px 4px 10px 3px rgba(170,168,168,0.75);
     
 }
-.testimonialsBox::before{
-   position: absolute;
-   content: '';
-   top: 0;
-   left: 0;
-   transform: translate(-50%, -50%);
-   width: 75%;
-   aspect-ratio: 1;
-    border-radius: 100%;
-    background-color: rgba(9, 175, 134);
+.testimonials::before{
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: -1;
-    transition:all ease-in  0.4s;
 }
-.testimonialsBox:hover:before{  
-    width: 500%;
+.testimonials::after{
+   width: 100%;
+    height: 100%;
+    background-color: rgba(9, 175, 134);
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -2;
+    clip-path: circle(20% at 10% 0%);
+    transition: all ease-in .2s;
+    background-image: linear-gradient(45deg, rgba(9, 175, 134) 0%, rgba(9, 175, 134) 100%);
+    position: absolute;
+}
+.testimonials:hover::after{  
+   clip-path: circle(100%);
  }
- .testimonialsBox:hover p{  
+ .testimonials:hover p{  
     color: rgb(0, 0, 0);
  }
- .testimonialsBox img{
+ .testimonials:hover{  
+   cursor: pointer;
+}
+ .testimonials img{
     border: 2px solid rgba(9, 175, 134);
+ }
+
+ .testimonialsBox{
+   padding: 10%;
+   width: 100%;
  }

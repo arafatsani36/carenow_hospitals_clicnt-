@@ -1,11 +1,11 @@
 .OurDoctorsSpan{
     color: rgba(9, 175, 134);
 }
-.container{
-    height: 60vh;
-}
+/* .container{ */
+    /* height: 60vh; */
+/* } */
 .OurDoctorsBox{
-     overflow: hidden;  
+    overflow: hidden;  
    position: relative; 
 }
 .OurDoctorsBox img{

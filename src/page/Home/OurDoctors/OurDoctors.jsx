@@ -23,50 +23,16 @@ const OurDoctors = () => {
     return (
         <div className=' mx-auto md:w-[90%] lg:w-[90%] OurDoctors'>
             <h2 className=' text-2xl lg:text-3xl font-bold text-center p-4 my-4'><span className='titleUnderline'>Our <span className='OurDoctorsSpan'>Doctor</span></span> </h2>
-
-            <Swiper
-            slidesPerView={4}
-            grid={{
-            rows: 2,
-            fill: "row",
-            }}
-            spaceBetween={30}
-            pagination={{
-            clickable: true,
-            }}
-            breakpoints={{
-                0: {
-                    slidesPerView: 1,
-                    spaceBetween: 50,
-                    grid: { rows: 1, columns: 1 },
-                    
-                },
-                620: {
-                    slidesPerView: 2,
-                    spaceBetween: 70,
-                    grid: { rows: 1, columns: 2 },
-                }
-                ,
-                840: {
-                    slidesPerView: 3,
-                    spaceBetween: 90,
-                }
-            }}
-            modules={[Grid, Pagination]}
-            className="mySwiper"
-        >
-            {
-
-            }
-
-            {
-                doctors.map(doctor => 
-                    <SwiperSlide key={doctor.ID} className='container h-[50vh] md:h-[60vh] lg:h-[60vh]'>
+          
+          <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 my-5'>
+                {
+                    doctors.map(doctor => 
+                    <div key={doctor.ID} className='container '>
                 
                     <div className='OurDoctorsBox'>
                         <img src={doctor.Photo} alt="" /> 
                     
-                    <div className="info w-[100%] md:w-[300px] lg:w-[300px]">
+                    <div className="info w-[100%]">
                         <div className=''>
                           <h2 className='text-xl font-bold mb-1 text-center'>{doctor.Name}</h2>
                           <h4 className='text-lg font-bold mb-2 text-white text-center'>{doctor.Department}</h4>
@@ -77,14 +43,13 @@ const OurDoctors = () => {
                     </div>
                     </div> 
                 
-            </SwiperSlide>
+                    </div>
                     
                 )
-            }
-
+                }
+        </div> 
             
-            
-        </Swiper>
+       
         </div>
     );
 };

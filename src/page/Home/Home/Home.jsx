@@ -8,6 +8,8 @@ import OurDoctors from '../OurDoctors/OurDoctors';
 import About from '../About/About';
 import Testimonials from '../Testimonials/Testimonials';
 import Blog from '../Blog/Blog';
+import Feature from '../Feature/Feature';
+import Faq from '../Faq/Faq';
 
 
 const Home = () => {
@@ -21,6 +23,8 @@ const Home = () => {
             <OurFacilities></OurFacilities>
             <OurDoctors></OurDoctors>
             <About></About>
+            <Feature></Feature>
+            <Faq></Faq>
             <Testimonials></Testimonials>  
             <Blog></Blog>  
         </div>

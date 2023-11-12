@@ -37,17 +37,21 @@ const OurFacilities = () => {
             breakpoints={{
               0: {
                   slidesPerView: 1,
-                  spaceBetween: 50,
+                  spaceBetween: 40,
                   
               },
               620: {
                   slidesPerView: 2,
-                  spaceBetween: 70,
+                  spaceBetween: 60,
               }
               ,
               840: {
-                  slidesPerView: 4,
-                  spaceBetween: 90,
+                  slidesPerView: 3,
+                  spaceBetween: 70,
+              },
+              841:{
+                slidesPerView: 3,
+                  spaceBetween: 70,
               }
 
             }}
