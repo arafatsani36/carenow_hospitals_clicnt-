@@ -48,9 +48,7 @@ const Testimonials = () => {
                 }}
                 modules={[Pagination, Autoplay]}
                 className="mySwiper"
-            >
-
-               
+            >               
                     <div className='testimonials'>
                         {
                             patients.map(patient => 
