@@ -10,6 +10,7 @@ import Testimonials from '../Testimonials/Testimonials';
 import Blog from '../Blog/Blog';
 import Feature from '../Feature/Feature';
 import Faq from '../Faq/Faq';
+import ImageGallery from '../ImageGallery/ImageGallery';
 
 
 const Home = () => {
@@ -26,7 +27,8 @@ const Home = () => {
             <Feature></Feature>
             <Faq></Faq>
             <Testimonials></Testimonials>  
-            <Blog></Blog>  
+            <Blog></Blog> 
+            <ImageGallery></ImageGallery> 
         </div>
     );
 };
