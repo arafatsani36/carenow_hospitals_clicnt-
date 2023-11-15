@@ -26,7 +26,7 @@ display: flex;
 .nav {
     padding: 10px;
 }
-.nav li a{
+.Navbar a{
     position: relative;
     display: inline-block;
     font-size: 1em;
@@ -34,8 +34,13 @@ display: flex;
     color: #000000;
     text-decoration: none;
     padding: 0 23px;
+    margin-bottom: 5px;
 }
-.nav li a:hover::after, .nav li a.active::after{
+.Navbar a:hover{
+    color: rgba(9, 175, 134);
+}
+.Navbar a.active:hover::after, .Navbar a.active::after{
+    color: rgba(9, 175, 134);
     content: "";
     position: absolute;
     background: rgba(9, 175, 134);
@@ -44,9 +49,14 @@ display: flex;
     height: 2px;
     left: 20px;
 }
-.nav li a:hover, .nav li a.active{
+.Navbar a:hover, .Navbar a.active{
     color: rgba(9, 175, 134);
     
+}
+
+/* login Btn  */
+.loginBtn{
+
 }
 
 

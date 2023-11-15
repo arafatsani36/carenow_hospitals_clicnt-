@@ -38,9 +38,8 @@ const DoctorDetails = () => {
                     <p className=" text-lg"><AiOutlineMail></AiOutlineMail> Email: {data.Email}</p>
                     <p className=" text-lg"><BsFillTelephoneFill></BsFillTelephoneFill> Phone: {data.Phone}</p>
                     <p className=" text-lg"><GrSchedules></GrSchedules> Schedules: {data.Schedules}</p>
-
-
-                   <div>
+                    
+                    <div>
                         <button className=" border-r-emerald-500 border-2 p-2 hover:bg-emerald-500 hover:transition-all hover:duration-300 hover:border-emerald-500 hover:text-white mt-2" onClick={() => setIsOpen(true)}>Book an Appointment</button>
 
                         {
@@ -48,6 +47,7 @@ const DoctorDetails = () => {
                             
                         }
                    </div>
+
                     <div className="flex justify-between mt-4 w-48">
 
                        <FaFacebookF className="text-2xl block cursor-pointer hover:scale-125 hover:duration-300 hover:text-green-600"></FaFacebookF>

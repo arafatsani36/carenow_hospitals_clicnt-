@@ -11,6 +11,8 @@ import Blog from '../Blog/Blog';
 import Feature from '../Feature/Feature';
 import Faq from '../Faq/Faq';
 import ImageGallery from '../ImageGallery/ImageGallery';
+import Contact from '../Contact/Contact';
+import GoToTop from '../../../Components/GoToTop/GoToTop';
 
 
 const Home = () => {
@@ -29,6 +31,7 @@ const Home = () => {
             <Testimonials></Testimonials>  
             <Blog></Blog> 
             <ImageGallery></ImageGallery> 
+            <Contact></Contact>
         </div>
     );
 };

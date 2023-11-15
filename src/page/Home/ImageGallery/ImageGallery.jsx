@@ -25,7 +25,7 @@ import { useEffect } from 'react';
         .then(data => setGallery(data))
     })
     return (
-        <div className="Gallery mt-5 grid md:grid-cols-3">
+        <div className="Gallery mt-10 grid md:grid-cols-3">
             
             {
                 gallery.map((item) => 
@@ -35,19 +35,19 @@ import { useEffect } from 'react';
             }
 
            
-        <dialog id="my_modal_3" className="modal">
-        <div className="modal-box">
-          <form method="dialog">
-            <div
-              className=" btn btn-sm btn-circle absolute right-2 top-[12px]"
-              onClick={closeModal}
-            >
-              ✕
-            </div>
-          </form>
-          {selectedImage && <img src={selectedImage.img} alt="" />}
-        </div>
-      </dialog>
+          <dialog id="my_modal_3" className="modal">
+          <div className="modal-box">
+            <form method="dialog">
+              <div
+                className=" btn btn-sm btn-circle absolute right-2 top-[12px]"
+                onClick={closeModal}
+              >
+                ✕
+              </div>
+            </form>
+            {selectedImage && <img src={selectedImage.img} alt="" />}
+          </div>
+        </dialog>
            
         </div>
     );

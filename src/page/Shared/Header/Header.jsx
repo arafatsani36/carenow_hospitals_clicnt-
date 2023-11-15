@@ -1,5 +1,5 @@
 import './Header.css';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { CgMenuMotion } from "react-icons/cg";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { useState } from "react";
@@ -54,21 +54,21 @@ const Header = () => {
 
 
             
-                <nav className="flex justify-between items-center  w-[90%] mx-auto p-3 lg:p-0">
-                    <div className='flex'>
+                <nav className="Navbar flex justify-between items-center  w-[90%] mx-auto p-3 lg:p-0">
+                    <div className='flex items-center '>
                         <img className='w-9 h-9 mt-2' src={logo} alt="" />
                         <h1 className='logo lg:text-2xl font-bold'><span>Carenow</span> hospitals</h1>
                     </div>
 
                     <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-3 cursor-pointer md:hidden'>
-                        {open ? <CgMenuMotion className=" text-3xl cursor-pointer" ></CgMenuMotion>:<AiOutlineCloseCircle className=" text-3xl cursor-pointer"></AiOutlineCloseCircle>}
+                        {open ? < AiOutlineCloseCircle className=" text-3xl cursor-pointer" ></ AiOutlineCloseCircle>:<CgMenuMotion className=" text-3xl cursor-pointer"></CgMenuMotion>}
                     </div>
 
                 
 
-                    <ul className={`nav md:flex md:items-center md:pb-10 pb-12 absolute md:static bg-white md:z-auto z-[2] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-10 ':'top-[-490px]'}`}>
+                    <ul className={`nav md:flex md:items-center md:pb-10 pb-12 absolute md:static bg-white md:z-auto z-[2] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-[65px] ':'top-[-490px]'}`}>
                         <li>
-                            <Link className='active' to='/'>Home</Link>
+                            <NavLink className='' to='/'>Home</NavLink>
                         </li>
 
                         <li className="dropdown">
@@ -77,33 +77,46 @@ const Header = () => {
                             </Link>
                             {/* dropdwon  */}
                             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 rounded-box w-96 bg-white">
-                            {doctor.map((item, index) => <li key={index} className='p-4 w-full'><Link to={`/departments/${item.department}`}>{item.department}</Link></li>)}
+                            {doctor.map((item, index) => <li key={index} className='p-4 w-full'><NavLink to={`/departments/${item.department}`}>{item.department}</NavLink></li>)}
                             </ul>
                         </li>
-
-                            
-
-
                         <li>
-                            <Link to='/doctor'>Doctor</Link>
-                        </li>
-
-
-
-
-
-                        <li>
-                            <Link to='/service'>Services</Link>
+                            <NavLink to='/doctor'>Doctor</NavLink>
                         </li>
                         <li>
-                            <Link to='/about'>About</Link>
+                            <NavLink to='/service'>Services</NavLink>
                         </li>
-                        
-                        <div className='lg:items-center'>
-                            <button className="lg:ml-[10vw] text-lg"><Link to='login'>login</Link></button>
+                        <li>
+                            <NavLink to='/about'>About</NavLink>
+                        </li>
+
+                          
+                        {/* responsive login button start  */}
+                        <div className='block md:hidden lg:hidden mt-5'>                         
+                            <div className="avatar placeholder items-end flex">
+                            <div className="bg-neutral text-neutral-content rounded-full w-8 ml-6">
+                                <span>MX</span>
+                            </div>
+                            </div> 
+                            <button className=" text-lg loginBtn"><Link to='login'>login</Link></button>                           
                         </div>
+                        {/* responsive login button end*/}
+
+                        </ul> 
+
+                        {/* login button start  */}
+                        <div className='hidden md:block lg:block'>
+                            <div className='items-center justify-center flex'>
+                                <div className="avatar placeholder items-end flex">
+                                <div className="bg-neutral text-neutral-content rounded-full w-8">
+                                    <span>MX</span>
+                                </div>
+                                </div> 
+                                <button className=" text-lg loginBtn"><Link to='login'>login</Link></button>
+                            </div>
+                        </div>
+                        {/* login button end*/}
                         
-                        </ul>  
                 </nav>
                 </div>
 

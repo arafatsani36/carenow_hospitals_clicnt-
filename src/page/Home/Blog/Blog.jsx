@@ -23,7 +23,7 @@ const Blog = () => {
     })
 
     return (
-        <div className='mx-auto w-[90%] mt-6'>
+        <div className='mx-auto w-[90%] mt-6 mb-10'>
             <h2 className='text-2xl lg:text-3xl font-bold text-center p-4 mt-4 mb-7'> <span className='titleUnderline'>Latest<span className='ourFacilitiesSpan'>Blog</span></span></h2>
             <div className='grid md:grid-cols-3 lg:grid-cols-4 mx-auto gap-4'>
                 {

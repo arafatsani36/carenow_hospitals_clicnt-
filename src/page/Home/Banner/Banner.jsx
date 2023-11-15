@@ -7,11 +7,11 @@ const Banner = () => {
         <div className="banner relative lg:h-[100vh] h-[50vh] z-1">
             <div className='banner-text absolute w-[100%] flex items-start justify-center'>
                 <div className='lg:mt-52 mt-5'>
-                    <span className='text-lg lg:text-4xl stroke-text'>A </span>
-                    <span className='text-lg lg:text-4xl stroke-text'>hospital</span>
+                    <span className='text-lg lg:text-4xl'>A </span>
+                    <span className='text-lg lg:text-4xl'>hospital</span>
                 </div>
                 <div className='-mt-6'>
-                    <span className='text-lg lg:text-4xl'>is no place to be sick.</span>
+                    <span className='text-lg lg:text-6xl bannerText'>is no place to be sick</span>
                 </div>
 
                 {/* figures */}
@@ -21,11 +21,11 @@ const Banner = () => {
                         <span className='md:text-base lg:text-lg'>Years of Experience</span>
                     </div>
                     <div className=' bg-slate-300  p-6 rounded-lg'>
-                    <span className='md:text-base lg:text-4xl'><CountUp end={140} start={100} delay='' suffix='+'/></span>
+                    <span className='md:text-base lg:text-4xl'><CountUp end={140} start={1} delay='' suffix='+'/></span>
                     <span className='md:text-base lg:text-lg'>Specialist Doctors</span>
                     </div>
                     <div className=' bg-slate-300 p-6 rounded-lg'>
-                    <span className='md:text-base lg:text-4xl'><CountUp end={100} start={50} delay='' suffix='k+'/></span>
+                    <span className='md:text-base lg:text-4xl'><CountUp end={100} start={1} delay='' suffix='k+'/></span>
                     <span className='md:text-base lg:text-lg'>Patients Recover</span>
                     </div>
                     

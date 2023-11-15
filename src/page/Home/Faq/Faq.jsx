@@ -3,7 +3,7 @@ import img from '../../../assets/doctor/faq.jpg'
 
 const Faq = () => {
     return (
-        <div className='grid grid-cols-2 items-center justify-between flex-col lg:flex-row w-[90%] mx-auto'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-2 items-center justify-between flex-col lg:flex-row w-[90%] mx-auto'>
            <div>
                 <img src={img} alt="" />
            </div>

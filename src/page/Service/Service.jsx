@@ -19,7 +19,7 @@ const Service = () => {
                 services.map(service => 
                 <div className='service' key={service.id}>
                     <div>
-                     <img className='hover:scale-110 transition duration-500 cursor-pointer' src={service.image} alt="" />
+                    <Link to={`/service/${service.id}`}><img className='hover:scale-110 transition duration-500 cursor-pointer' src={service.image} alt="" /></Link> 
                     </div>
                     <div className=' pl-2'>
                         <h2 className='text-2xl font-bold my-2'>{service.title}</h2>

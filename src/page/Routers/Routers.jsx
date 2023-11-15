@@ -23,16 +23,7 @@ const Routers = createBrowserRouter ([
           {
             path: '/departments/:department', // Add a leading forward slash
             element: <Departments></Departments>,
-            loader: ({ params }) =>
-            fetch(`/doctor.json`)
-              .then((res) => res.json())
-              .then((data) => {
-                console.log(data); // Log the data
-                return {
-                  data,
-                  department: params.department
-                }
-              })  
+            loader: ({ params }) => fetch(`/doctor.json`)
           },
           {
             path: 'doctor',
