@@ -8,12 +8,20 @@
 body{
     background-color: #ffffff;
 }
-.stroke-text{
-    color: transparent;
-    font-family: 'Merriweather', serif;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+
+::-webkit-scrollbar{
+    width: 15px;
 }
+::-webkit-scrollbar-track{
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(9, 175, 134);
+    border: 5px solid transparent;
+    border-radius: 10px;
+    background-clip: content-box;
+}
+
 
 .primaryBtn{
     border:2px solid rgba(9, 175, 134);

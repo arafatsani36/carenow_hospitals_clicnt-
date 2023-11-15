@@ -1,0 +1,28 @@
+.loaderTitle{
+    position: relative;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(232, 240, 238);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.loaderTitle::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: rgba(9, 175, 134);
+    -webkit-text-stroke: 0px rgb(232, 240, 238);
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+    
+}
+@keyframes animate{
+    0%{
+
+    }
+    70%{
+        width: 100%; 
+    }
+}

@@ -11,14 +11,13 @@
     background-color: rgba(9, 175, 134);
     border-radius: 50%;
     position: fixed;
-    bottom: 5rem;
-    right: 5rem;
+    bottom: 12px;
+    right: 10px;
     z-index: 999;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    right: 15px;
 }
 .GoToTopIcon{
     animation: Btn 1.2s linear infinite alternate-reverse;

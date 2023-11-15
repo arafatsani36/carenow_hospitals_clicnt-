@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-import Main from "../../Layouts/Main";
 import Home from "../Home/Home/Home";
 import Departments from "../Departments/Departments";
 import Doctor from "../Doctor/Doctor";
@@ -9,12 +8,15 @@ import SingleService from "../SingleService/SingleService";
 import About from "../About/About";
 import Login from "../Login/Login";
 import Registration from "../Registration/Registration";
+import ErrorPage from "../ErrorPage/ErrorPage";
+import Main from "../../Layouts/Main/Main";
 
 
 const Routers = createBrowserRouter ([
     {
         path: "/",
         element: <Main></Main>,
+        errorElement: <ErrorPage></ErrorPage>,
         children:[
           {
             path: '/',
