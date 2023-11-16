@@ -25,7 +25,7 @@ const About = () => {
                     <span style={{ '--i': 7 }}><img src={img7} alt="" /></span>
                     <span style={{ '--i': 8 }}><img src={img8} alt="" /></span>
                 </div>
-            <div className='w-[95%] mx-auto'>
+            <div className='w-[95%] mx-auto mb-4'>
                     <h2 className=' text-2xl text-center lg:text-2xl font-bold p-4 mt-20'><span className='titleUnderline'>Carenow <span className='OurDoctorsSpan'>Hospitals</span></span> </h2>
 
                     

@@ -6,6 +6,7 @@ import { useState } from "react";
 import logo from '../../../assets/logo/logo.png'
 import { useEffect } from 'react';
 import { MdArrowDropDown } from 'react-icons/md';
+import img1 from '../../../assets/demoImage/demo.jpg'
 
 
 const Header = () => {
@@ -89,32 +90,41 @@ const Header = () => {
                         <li>
                             <NavLink to='/about'>About</NavLink>
                         </li>
+                        
 
                           
+                        
                         {/* responsive login button start  */}
-                        <div className='block md:hidden lg:hidden mt-5'>                         
-                            <div className="avatar placeholder items-end flex">
-                            <div className="bg-neutral text-neutral-content rounded-full w-8 ml-6">
-                                <span>MX</span>
-                            </div>
+                            <div className='block md:hidden lg:hidden mt-5'>
+                            <Link to='/MyProfile'>                         
+                                <div className="avatar placeholder items-end flex">
+                                <div className="bg-neutral text-neutral-content rounded-full w-8 ml-6">
+                                    <span>MX</span>
+                                </div>
                             </div> 
-                            <button className=" text-lg loginBtn"><Link to='login'>login</Link></button>                           
-                        </div>
+                            </Link>
+                            <button className=" text-lg loginBtn"><Link to='/login'>logIn</Link></button>                           
+                            </div>
+                        
                         {/* responsive login button end*/}
 
                         </ul> 
 
                         {/* login button start  */}
-                        <div className='hidden md:block lg:block'>
-                            <div className='items-center justify-center flex'>
-                                <div className="avatar placeholder items-end flex">
-                                <div className="bg-neutral text-neutral-content rounded-full w-8">
-                                    <span>MX</span>
-                                </div>
-                                </div> 
-                                <button className=" text-lg loginBtn"><Link to='login'>login</Link></button>
+                       <div className='hidden md:block lg:block'>
+                            
+                            <div className='items-center justify-center flex MyProfile'>
+                                <Link to='/MyProfile'>
+                                    <div className="avatar placeholder items-center justify-center flex">
+                                    <div className="bg-neutral text-neutral-content rounded-full w-8">
+                                        <img src={img1} alt="" />
+                                    </div>
+                                    </div> 
+                                </Link>
+                                <button className=" text-lg loginBtn"><Link to='/login'>logIn</Link></button>
                             </div>
-                        </div>
+                           
+                        </div>   
                         {/* login button end*/}
                         
                 </nav>

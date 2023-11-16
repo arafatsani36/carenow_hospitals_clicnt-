@@ -1,11 +1,11 @@
-import img from '../../assets/doctor/review6.jpg'
+import img from '../../assets/demoImage/demo.jpg'
 import { Link } from 'react-router-dom';
 import registrationImage from '../../assets/login and registration/registration.gif'
 const Registration = () => {
     return (
         <div>
             <h2 className='text-2xl lg:text-3xl font-bold text-center mt-4 p-4'> <span className='titleUnderline'>Registration <span className='ourFacilitiesSpan'>Now</span></span></h2>
-            <div className=" min-h-screen grid md:grid-cols-2 lg:grid-cols-2 items-center justify-center gap-6 ">
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 items-center justify-center gap-6 ">
              <div>
                   <img src={registrationImage} alt="" />
                 </div>
@@ -69,13 +69,13 @@ const Registration = () => {
                         <div>
                             <input type="file" name="Photo" id="customFile" accept='.jpg, .png,'
                             className='hidden'/>
-                           <label htmlFor="customFile" className='bg-teal-500 text-white p-4 rounded-lg ml-5 text-base font-bold cursor-pointer'>Upload Photo</label>
+                           <label htmlFor="customFile" className='bg-teal-500 text-white p-4 rounded-lg ml-5 text-base font-bold cursor-pointer btn2'>Upload Photo</label>
                         </div>
                         </div>
 
 
                         <div className="form-control mt-6">
-                        <button className="btn btn-primary">Registration</button>
+                        <button className="btn2 text-white font-bold">Registration</button>
                         </div>
                         <p className=" text-base mt-2">Already have an account? <Link to='/login' className="text-teal-500 font-bold">Login</Link></p>
                     </form>

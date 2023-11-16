@@ -12,7 +12,7 @@ const Feature = () => {
                     <li className='text-lg mb-2'>2. Search for you physician here, and contact their office.</li>
                     <li className='text-lg mb-2'>3. View our physicians who are accepting new patients, use the online scheduling to select tool to select an appointment time</li>
                 </ul>
-                <button className=' btn2 mt-4'>Loren More</button>
+                <button className='btn2 mt-4'>Loren More</button>
            </div>
 
            <div className=' relative z-10'>

@@ -1,0 +1,15 @@
+.myProfile-image{
+    border: 2px solid rgba(9, 175, 134);
+    
+}
+.myProfileBtn{
+    border: 1.5px solid rgba(9, 175, 134);
+    color: rgb(0, 0, 0);
+    border-radius: 10px; 
+    transition: all 0.5s ease-in-out;
+}
+.myProfileBtn:hover{
+    background-color: rgb(3, 90, 250);
+    color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(3, 90, 250)
+}

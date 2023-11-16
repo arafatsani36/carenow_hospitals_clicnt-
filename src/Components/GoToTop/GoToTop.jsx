@@ -5,6 +5,7 @@ import { BiUpArrowAlt } from "react-icons/bi";
 
 const GoToTop = () => {
     const [visible, setVisible] = useState(false)
+    
     const goToBtn = () => {
         window.scrollTo({top: 0, left: 0, behavior:'smooth'})
     }
@@ -24,7 +25,6 @@ const GoToTop = () => {
     useEffect(() => {
         window.addEventListener('scroll', listenToScroll)
     },[])
-
 
 
     return (

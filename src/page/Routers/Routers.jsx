@@ -10,7 +10,7 @@ import Login from "../Login/Login";
 import Registration from "../Registration/Registration";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import Main from "../../Layouts/Main/Main";
-
+import MyProfile from "../MyProfile/MyProfile";
 
 const Routers = createBrowserRouter ([
     {
@@ -56,7 +56,13 @@ const Routers = createBrowserRouter ([
           {
             path: 'registration',
             element:<Registration></Registration>
+          },
+          {
+            path: 'MyProfile',
+            element:<MyProfile></MyProfile>
           }
+          
+         
 
           
         ]
