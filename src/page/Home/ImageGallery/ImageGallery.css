@@ -21,10 +21,8 @@
     width: 100%;
     height: auto;
     border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
 }
 .Gallery img:hover{
    cursor: pointer;
-   transform: scale(1.1);
 }
 
