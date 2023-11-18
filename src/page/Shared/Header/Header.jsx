@@ -39,8 +39,8 @@ const Header = () => {
 
     return (
         <div>
-            <div className='header'>
-                <div className='hidden lg:block lg:flex lg:justify-between lg:items-center w-[90%] mx-auto lg:mt-4 lg:p-2'>
+            <div className='header hidden lg:block'>
+                <div className='lg:flex lg:justify-between lg:items-center w-[90%] mx-auto  lg:p-2 mt-0'>
                     <div>
                         <h4 className='text-base font-semibold text-black'>24 hours emergency & ambulance Service: <span>+321 789 01 201</span></h4>
                     </div>

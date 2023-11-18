@@ -16,10 +16,10 @@ const Main = () => {
         }, 2000);
     }, [])
     return (
-        <div>
+         <>
            {loading ? (
                 <div className="flex flex-col items-center justify-center h-screen">
-                <img src={loader} className="w-[100px] h-[100px] mx-auto"></img>
+                <img src={loader} className=" mx-auto w-[100px] h-[100px]"></img> 
                 <h2 className=" text-center text-4xl loaderTitle" data-text="Loading....">Loading....</h2>
                 </div>
 
@@ -31,7 +31,7 @@ const Main = () => {
             <Footer />
         </div>
         )}
-        </div>
+         </>
        
     );
 };

@@ -31,7 +31,7 @@ display: flex;
     display: inline-block;
     font-size: 1em;
     font-weight: 500;
-    color: #000000;
+     color: #000000; 
     text-decoration: none;
     padding: 0 23px;
     margin-bottom: 5px;
@@ -50,8 +50,7 @@ display: flex;
     left: 20px;
 }
 .Navbar a:hover, .Navbar a.active{
-    color: rgba(9, 175, 134);
-    
+    color: rgba(9, 175, 134);   
 }
 
 /* login Btn  */
